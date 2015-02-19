@@ -1,0 +1,20 @@
+{
+	"name": "fliglio/app",
+	"type": "project",
+	"license": "GPL-3.0+",
+	"authors": [{
+		"name": "Ben Schwartz",
+		"email": "benschw@gmail.com"
+	}],
+	"require": {
+		"php": ">=5.3",
+		"fliglio/flfc":    "dev-master",
+		"fliglio/routing": "dev-master",
+		"fliglio/web":     "dev-master",
+		"fliglio/fltk":    "dev-master"
+	},
+	"minimum-stability" : "dev",
+    "autoload": {
+        "psr-0": { "MyApp\\": "src/" }
+    }
+}
